@@ -3,7 +3,7 @@ set -e
 
 echo "Hello Teknoir!"
 
-tmp_dir=$(mktemp -d -t sustayn-patch-001)
+tmp_dir=$(mktemp -d -t sustayn-patch-001XXX)
 echo $tmp_dir
 pushd $tmp_dir
 
