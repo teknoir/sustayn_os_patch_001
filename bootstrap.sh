@@ -7,7 +7,7 @@ tmp_dir=$(mktemp -d -t sustayn-patch-XXXXXXXXXX)
 echo $tmp_dir
 pushd $tmp_dir
 
-curl -o patch.zip https://github.com/teknoir/sustayn_os_patch_001/releases/download/test/patch.zip
+curl -Lo patch.zip https://github.com/teknoir/sustayn_os_patch_001/releases/download/test/patch.zip
 unzip patch.zip
 ls -la ./files
 
