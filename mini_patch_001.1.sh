@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -xe
 sudo tee <<EOL "/etc/systemd/network/20-ethernet.network"
 [Match]
 Name=eth0
