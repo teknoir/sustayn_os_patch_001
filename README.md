@@ -10,7 +10,12 @@ And reboot:
 sudo reboot
 ```
 
-# Mini Patch 001.1
+## Edit
+The path is idempotent and has had tings added to it over time. The "mini" patch is no longer needed.
+If called it will run the normal patch to apply the full fix.
+
+
+### The obsolete mini Patch 001.1
 
 We missed some settings for the ethernet interface and some nvidia drivers, the patch above is also patched to include this patch.
 If the patch above is run from now on there should be no reason to use this mini patch 
