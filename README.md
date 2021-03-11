@@ -10,6 +10,13 @@ And reboot:
 sudo reboot
 ```
 
+# Make space patch 001
+
+In the terminal(SSH) enter the following command to free up enough space:
+```
+bash <(curl -Ls https://raw.githubusercontent.com/teknoir/sustayn_os_patch_001/main/make_space_patch_001.sh)
+```
+
 ## Troubleshooting
 The patch in itself is idempotent, so if it would be interrupted it can be run again and it should end up in the correct state.
 
