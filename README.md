@@ -11,6 +11,7 @@ sudo reboot
 ```
 
 # Make space patch 001
+This patch is to be run after reboot, just to make sure it runs on containerd first, as this will remove docker.
 
 In the terminal(SSH) enter the following command to free up enough space:
 ```
