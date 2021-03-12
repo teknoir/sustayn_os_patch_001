@@ -28,6 +28,8 @@ $SUDO apt-get install -y \
   cuda-compiler-10-2 cuda-cudart-10-2 cuda-libraries-10-2 cuda-toolkit-10-2 cuda-tools-10-2 nvidia-container-csv-cuda \
   nvidia-container-runtime jq libsystemd-dev p7zip minicom Jetson.GPIO python3-serial python3-pip isc-dhcp-client \
   networkd-dispatcher
+$SUDO apt autoremove --purge -y || true
+$SUDO apt clean || true
 
 echo "Space on device after patch!"
 $SUDO df -H /dev/mmcblk0p1
