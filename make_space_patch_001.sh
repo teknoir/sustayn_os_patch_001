@@ -17,7 +17,7 @@ $SUDO apt autoremove --purge -y || true
 $SUDO apt clean || true
 
 # Remove unused images from containerd
-sudo k3s crictl rmi --prune
+$SUDO k3s crictl rmi --prune
 
 echo "Space on device after freeing up space!"
 $SUDO df -H /dev/mmcblk0p1
